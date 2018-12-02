@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.12)
+cmake_minimum_required(VERSION 3.11)
 project(simple_generic_tcp_server C)
 
 set(CMAKE_C_STANDARD 11)
