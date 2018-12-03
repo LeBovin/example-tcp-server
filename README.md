@@ -5,7 +5,7 @@ With this example you can:
 * Overload this TCP server (ex: build an IRC server, FTP server, game server, ...)
 
 # The basic usage:
-```
+```c
 #include <signal.h>
 #include <stdbool.h>
 #include <network/tcpserver/tcpserver.h>
