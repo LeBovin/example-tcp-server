@@ -11,7 +11,7 @@ include_directories(inc/network/tcpclient)
 include_directories(inc/network/tcpserver)
 
 add_executable(simple_generic_tcp_server
-        src/main.c
+        examples/basic/main.c
         inc/linkedlist/linkedlist.h
         inc/network/tcpclient/tcpclient.h
         inc/network/tcpserver/tcpserver.h
@@ -27,4 +27,4 @@ add_executable(simple_generic_tcp_server
         src/network/tcpserver/init.c
         src/network/tcpserver/send.c
         src/network/tcpserver/start.c
-        src/network/tcpserver/utils.c)
+        src/network/tcpserver/utils.c examples/overload/overload.c examples/overload/overload_server.h examples/overload/overload_client.h examples/overload/overload_server.c)
